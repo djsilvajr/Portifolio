@@ -474,15 +474,21 @@ b, strong {
   min-height: 100px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 10px;
+  gap: 15px;
   padding-top: 40px;
   padding-left: 100px;
   padding-bottom: 40px;
   padding-right: 100px;
 }
 
-.tecnologias div{
-  background-color: green;
+.tecnologias div img{
+  border-radius: 20%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.minha-imagem {
+  border-radius: 10%;
+
 }
 
 @media (min-width: 1270px) {

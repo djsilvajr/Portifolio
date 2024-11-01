@@ -83,14 +83,14 @@ https://www.tooplate.com/view/2115-marvel
                         <p style="margin-top: 50px;">Construir um novo produto pode ser uma tarefa bem desafiadora. Sou experiente com desenvolvimento web e construções de API's performaticas e seguras trabalhando assim tanto com back-end quanto front-end.</p>
                         
                         <div class="custom-btn-group mt-4">
-                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Baixar curriculo</a>
+                          <a href="#"  onclick="downloadPDF()" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Baixar curriculo</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg borda">
-                        <!-- <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image"> -->
+                    <div class="about-image svg">
+                        <img src="images/project/EU.png" class="img-fluid minha-imagem" alt="svg image">
                     </div>
                 </div>
 
@@ -114,13 +114,13 @@ https://www.tooplate.com/view/2115-marvel
                           <div class="project-info">
                             <div class="tecnologias">                              
                               <div>
-                                1
+                                  <img src="./images/undraw/PHP.jpeg" alt="">
                               </div>
                               <div>
-                                2
+                                <img src="./images/undraw/LARAVEL.jpeg" alt="">
                               </div>
                               <div>
-                                3
+                                <img src="./images/undraw/MYSQL.jpeg" alt="">
                               </div>
                             </div>
                             <!-- <img src="images/project/project-image01.png" class="img-fluid" alt="project image"> -->
@@ -129,27 +129,52 @@ https://www.tooplate.com/view/2115-marvel
 
                         <div class="item">
                           <div class="project-info">
-                            <!-- <img src="images/project/project-image02.png" class="img-fluid" alt="project image"> -->
+                            <div class="tecnologias">                              
+                              <div>
+                                  <img src="./images/undraw/DOCKER.jpeg" alt="">
+                              </div>
+                              <div>
+                                <img src="./images/undraw/NODE.jpeg" alt="">
+                              </div>
+                              <div>
+                                <img src="./images/undraw/NEST.jpeg" alt="">
+                              </div>
+                            </div>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
-                            <!-- <img src="images/project/project-image03.png" class="img-fluid" alt="project image"> -->
+                            <div class="tecnologias">                              
+                              <div>
+                                  <img src="./images/undraw/HTML.jpeg" alt="">
+                              </div>
+                              <div>
+                                <img src="./images/undraw/CSS.jpeg" alt="">
+                              </div>
+                              <div>
+                                <img src="./images/undraw/JAVASCRIPT.jpeg" alt="">
+                              </div>
+                            </div>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
-                            <!-- <img src="images/project/project-image04.png" class="img-fluid" alt="project image"> -->
+                            <div class="tecnologias">                              
+                              <div>
+                                  <img src="./images/undraw/GIT.jpeg" alt="">
+                              </div>
+                              <div>
+                                <img src="./images/undraw/GCP.jpeg" alt="">
+                              </div>
+                              <div>
+                                <img src="./images/undraw/JQUERY.jpeg" alt="">
+                              </div>
+                            </div>
                           </div>
                         </div>
 
-                        <div class="item">
-                          <div class="project-info">
-                            <!-- <img src="images/project/project-image05.png" class="img-fluid" alt="project image"> -->
-                          </div>
-                        </div>
                       </div>
 
                   </div>
@@ -260,6 +285,13 @@ https://www.tooplate.com/view/2115-marvel
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
+
+
+    <script>
+      function downloadPDF() {
+        window.location.href = 'download.php';
+      }
+    </script>
 
   </body>
 </html>
